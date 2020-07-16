@@ -1,0 +1,24 @@
+{
+  "name": "test-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --port 80",
+    "test": "vue-cli-service build --mode test",
+    "prod": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@smallwei/avue": "^2.2.0",
+    "cby.assist": "^1.0.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.12.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
